@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width= device-width , initial-scale=1.0">
+    
+    <title>CHIT-CHAT TALK</title>
+    
+    
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>  
+    
+    <div id="flexDIv1">
+        <img class= "logo" src="log.jpeg" alt="">
+        
+        
+        </div>
+    <body><div class="navbar">
+        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a class="active" href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a class="active" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <div class="loginbutton" button onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-fw fa-user"></i>Login</button>
+</div>
+
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+        
+    
+          <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+              <img src="\green-round-glossy-login-icon-vector-2976248.jpg" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="loginpage">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+        
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="loginpage" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    </div>    
+    </form>
+      </div>
+    
+    
+    <div id="flexDIv">
+        <div class="container">
+        </div>
+        
+              
+            <body>
+
+                <div class="icon-bar">
+                  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+                  <a  href="#"><i class="fa fa-search"></i></a> 
+                  <a  href="#"><i class="fa fa-envelope"></i></a> 
+                  <a  href="#"><i class="fa fa-globe"></i>
+                
+                    
+                  <a href="#"><i class="fa fa-trash"></i></a> 
+                </div>
+                  
+                </body>
+
+</div>     
+             <body>
+             <div class="send">
+    
+    <form action="#" id="send-container">
+    <button class = "btn" type=" submit">send</button>
+    <textarea id="textarea" cols="30" rows="10"></textarea>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+<script>
+    $('#textarea').emojioneArea({
+        pickerPosition: 'top'
+    });
+
+</script>
+</form>
+</div>
+
+</body>
+</html>
